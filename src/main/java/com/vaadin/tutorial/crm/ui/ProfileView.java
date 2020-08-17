@@ -7,6 +7,9 @@ import com.vaadin.flow.router.Route;
 import com.vaadin.tutorial.crm.backend.domain.User;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+/**
+ * Page with information about user
+ */
 @Route(value="profile", layout = MainLayout.class)
 @PageTitle("My profile")
 public class ProfileView extends VerticalLayout {

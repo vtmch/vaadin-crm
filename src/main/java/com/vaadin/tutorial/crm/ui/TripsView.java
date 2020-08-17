@@ -16,6 +16,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Set;
 
+/**
+ * Main page with form for registration trips
+ * and list of trips
+ */
 @Route(value="", layout = MainLayout.class)
 @PageTitle("Trips")
 public class TripsView extends VerticalLayout {
