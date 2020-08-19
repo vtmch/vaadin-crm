@@ -173,6 +173,7 @@
     </dependencies>
 
     <build>
+        <finalName>vaadin-crm</finalName>
         <defaultGoal>spring-boot:run</defaultGoal>
         <plugins>
             <plugin>
